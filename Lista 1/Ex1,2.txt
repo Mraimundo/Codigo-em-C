@@ -1,0 +1,30 @@
+Exercicio 1 e 2
+#include <stdio.h>
+#include <stdlib.h>
+
+
+// 1. Faça um algoritmo que leia 18 números inteiros e calcule e imprima a soma, média dos mesmos.
+
+
+int main (int argc, char *argv[])
+{
+int i, num1, soma=0;
+float media;
+
+
+    for(i=0; i<18; i++)
+    {
+        printf("Digite o valor de Entrada:: ");
+        scanf("%d", &num1);
+
+            soma=soma+num1;
+
+    }
+                media=soma/18;
+
+    printf("O valor da Soma eh:: %d\n", soma);
+
+    printf("O valor da Media eh:: %.1f\n", media);
+
+    return 0;
+}
